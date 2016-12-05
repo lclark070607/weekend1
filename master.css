@@ -32,11 +32,6 @@
 }
 
 /*logo and navigation section*/
-.container {
-    display: inline-block;
-    width: 100%;
-}
-
 nav {
     display: flex;
     justify-content: flex-start;
@@ -45,15 +40,18 @@ nav {
     font-family:'Yanone Kaffeesatz', sans-serif;
     font-weight: 100;
     color: #303030;
-    font-weight: 100;
      margin: 10px;
+}
+
+input {
+    border: none;
 }
 
 #cart-button {
     position: relative;
     display: inline-block;
     height: 36px;
-    padding: 0 36px 0 32px;
+    padding: 0;
     border: 1px solid #e0e0e0;
     color: #606060;
     line-height: 34px;
@@ -64,10 +62,9 @@ nav {
     position: relative;
     display: inline-block;
     height: 36px;
-    padding: 0 36px 0 32px;
+    padding: 0 6px;
     border: 1px solid #e0e0e0;
-    color: #606060;
-    line-height: 34px;
+    color: lightgrey;
     border-radius: 3px; 
 }
 
@@ -79,6 +76,11 @@ nav {
     margin-bottom: 50px;
     border-bottom: 1px solid rgba(0,0,0,0.4)
     box-border: none;
+}
+
+.spread {
+   display: inline-block;
+   position: relative;
 }
 
 .ties {
