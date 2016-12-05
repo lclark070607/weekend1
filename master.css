@@ -37,13 +37,22 @@ a {
 }
 
 /*logo and navigation section*/
+.class {
+    display: block;
+    position: relative;
+}
+
+.spread {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 nav {
     display: flex;
     justify-content: flex-start;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family:'Yanone Kaffeesatz', sans-serif;
-    font-weight: 100;
     color: #303030;
      margin: 10px;
 }
@@ -71,6 +80,16 @@ input {
     border: 1px solid #e0e0e0;
     color: lightgrey;
     border-radius: 3px; 
+}
+
+/*.end-links {
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 5px;
+}*/
+
+.end-links {
+    text-align: right;
 }
 
 /*ties lineup*/ 
